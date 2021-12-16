@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@media screen and (min-width: 1350px) {
+  .back-jumbotron{
+    background-color: #fbcd06;
+    width: 100%;
+    height: 106vh;
+    margin-top: -62px;
+    border-radius: 0px 0px 0px 220px;
+  }
+  .jumbo{
+      background-image: url("../img/jumbotron.PNG");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 103vh;
+      margin-top: -62px;
+      border-radius: 0px 0px 0px 200px;
+  }
+  .info-jumbotron{
+      display: flex;
+      justify-content: space-between;
+      width: 1100px;
+      margin-top: 70px;
+  }
+  .info-text-jumbotron{
+      border: 0px solid black;
+      width: 50%;
+      text-align: left;
+      margin-left: 100px;
+  }
+  .info-empty-jumbotron{
+    border: 0px solid black;
+    width: 50%;
+}
+.header-info-jumbotron{
+    font-size: 55px;
+    color: #fbcd06;
+    margin-bottom: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    line-height: 55px;
+}
+.fill-info-jumbotron{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Karla', sans-serif;
+}  
+.button-info-jumbotron{
+    color: white;
+    background-color: #fbcd06;
+    border-radius: 8px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+}
+.button-info-jumbotron:hover{
+    background-color: #f3a104;
+}
+.circle-contact{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+}
+
+@media screen and (min-width: 826px) and (max-width:1349px) {
+    .back-jumbotron{
+      background-color: #fbcd06;
+      width: 1120px;
+      height: 90vh;
+      margin-top: -62px;
+      border-radius: 0px 0px 0px 215px;
+    }
+    .jumbo{
+        background-image: url("../img/jumbotron.PNG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        margin-top: -62px;
+        width: 1120px;
+        border-radius: 0px 0px 0px 200px;
+    }
+    .info-jumbotron{
+        display: flex;
+        justify-content: space-between;
+        width: 1100px;
+        margin-top: 100px;
+    }
+    .info-text-jumbotron{
+        border: 0px solid black;
+        width: 50%;
+        text-align: left;
+        margin-left: 100px;
+    }
+    .info-empty-jumbotron{
+      border: 0px solid black;
+      width: 50%;
+  }
+  .header-info-jumbotron{
+      font-size: 55px;
+      color: #fbcd06;
+      margin-bottom: 25px;
+      font-family: Ubuntu;
+      font-weight: 600;
+      line-height: 55px;
+  }
+  .fill-info-jumbotron{
+      color: #fff;
+      margin-bottom: 30px;
+      font-size: 20px;
+      line-height: 30px;
+  }  
+  .button-info-jumbotron{
+      color: white;
+      background-color: #fbcd06;
+      border-radius: 8px;
+      width: 250px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: 1px;
+  }
+  .circle-contact{
+      position: fixed;
+      bottom: 80px;
+      right: 40px;
+  }
+  }
+
+  @media screen and (max-width: 825px) {
+    .back-jumbotron{
+        background-color: #fbcd06;
+        width: 100%;
+        height: 660px;
+        margin-top: -30px;
+        border-radius: 0px 0px 0px 70px;
+      }  
+    .jumbo{
+        background-image: url("../img/jumbo.PNG");
+        background-size: cover;
+        height: 650px;
+        margin-top: -30px;
+        border-radius: 0px 0px 0px 50px;
+    }
+    .info-jumbotron{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        margin-top: 100px;
+        width: 100%;
+        border: 0px solid black;
+    }
+    .info-text-jumbotron{
+        border: 0px solid black;
+        text-align: left;
+    }
+    .info-empty-jumbotron{
+      border: 0px solid black;
+      
+  }
+  .header-info-jumbotron{
+      font-size: 35px;
+      color: #fbcd06;
+      margin-bottom: 25px;
+      font-family: Ubuntu;
+      font-weight: 600;
+      line-height: 40px;
+  }
+  .fill-info-jumbotron{
+      color: #fff;
+      margin-bottom: 30px;
+      font-size: 14px;
+      line-height: 30px;
+  }  
+  .button-info-jumbotron{
+      color: white;
+      background-color: #fbcd06;
+      border-radius: 8px;
+      width: 250px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: 1px;
+  }
+  .circle-contact{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+}

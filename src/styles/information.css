@@ -1,0 +1,234 @@
+.information{
+    display: flex;
+    margin-top: 60px;
+    padding: 18px 100px 5px;
+    border-top:1px solid #edecec;
+}
+
+.information .logo{
+    width: 190px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information .logo img{
+    width: 108px;
+    height: 64px;
+    
+}
+
+.information .logo label{
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+    
+}
+
+.information .part1{
+    width: 240px;
+    padding: 10px 70px 10px 10px;
+}
+
+.information .part1 p{
+    text-align: left;
+    font-size: 12px;
+    color: #555;
+    font-family: 'Karla', sans-serif;
+    line-height: 21px;
+    margin: 0;
+}
+
+.information .part1 b{
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+}
+
+.information .info{
+    display: flex;
+    text-align: left;
+}
+
+.information .part2{
+    width: 190px;
+    padding: 10px;
+}
+
+.information .part2 .row-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.information .part2 b{
+    color: #989bac;
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.information .part2 a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    color: #000;
+}
+
+.information .part3{
+    width: 160px;
+    padding: 10px;
+}
+
+.information .part3 .row-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.information .part3 b{
+    color: #989bac;
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+    display: block;
+    margin-bottom: 14px;
+
+}
+
+.information .part3 a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: 'Karla', sans-serif;
+    color: #000;
+}
+
+.information .part4{
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.information .part4 b{
+    color: #989bac;
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.information .part4 .media-images img{
+    width: 25px;
+    height: 25px;
+}
+
+.information .part5{
+    width: 210px;
+    padding: 10px;
+}
+
+.information .part5 b{
+    color: #989bac;
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+    display: block;
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+
+.information .part5 .logo-supported img{
+    height: 48px;
+    width: 48px;
+}
+
+.information .part5 img{
+    height: 57px;
+    width: 145px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .information .part5 .logo-supported img{
+        height: 37px;
+        width: 37px;
+    }
+
+    .information .part5 img{
+        height: 43px;
+        width: 111px;
+    } 
+}
+
+@media screen and (max-width: 820px){
+    .information{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .information .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .information .part1{
+        width: 100%;
+    }
+
+    .information .info{
+        display: flex;
+        width: 300px;
+    }
+
+    .information .part4{
+        width: 190px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+    .information .part5 .logo-supported{
+        display: flex;
+
+    }
+    .information .part5 .logo-supported img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .information .part5 img{
+        height: 216px;
+        width: 550px;
+    } 
+
+    .information .info .part3{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .information .part5 b{
+        color: #989bac;
+        font-size: 12px;
+        font-family: 'Karla', sans-serif;
+        display: block;
+        margin-bottom: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 420px){
+    .information .part5 .logo-supported img{
+        height: 90px;
+        width: 90px;
+    }
+
+    .information .part5 img{
+        height: 106px;
+        width: 270px;
+    }
+}
